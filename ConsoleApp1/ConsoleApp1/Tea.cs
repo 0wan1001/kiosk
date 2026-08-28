@@ -1,6 +1,6 @@
 ﻿public class Tea : Menu
 {
-    public Tea() : base("티", 1000, Category.Drink)
+    public Tea() : base("티", 1000, Category.음료)
     {
         
     }

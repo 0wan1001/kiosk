@@ -1,14 +1,14 @@
 ﻿public enum Category
 {
-    Drink,
-    Bread,
-    Dailynecessities
+    음료,
+    빵,
+    생필품
 }
 
 public abstract class Menu
 {
     public string name;
-    protected int price { get; set; }
+    public int price;
     public Category category;
     
     public Menu(string _name, int _price, Category _category)
